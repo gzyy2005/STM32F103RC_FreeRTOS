@@ -1,0 +1,263 @@
+###############################################################################
+#
+# IAR ELF Linker V8.30.2.160/W32 for ARM                  05/Jan/2019  10:39:30
+# Copyright 2007-2018 IAR Systems AB.
+#
+#    Output file  =  
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Exe\Project.out
+#    Map file     =  
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\List\Project.map
+#    Command line =  
+#        -f C:\Users\o2\AppData\Local\Temp\EW902A.tmp
+#        (C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\main.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\misc.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\startup_stm32f10x_hd.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_adc.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_bkp.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_can.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_cec.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_crc.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_dac.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_dbgmcu.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_dma.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_exti.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_flash.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_fsmc.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_gpio.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_i2c.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_it.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_iwdg.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_pwr.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_rcc.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_rtc.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_sdio.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_spi.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_tim.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_usart.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_wwdg.o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj\system_stm32f10x.o
+#        --no_out_extension -o
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Exe\Project.out
+#        --map
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\List\Project.map
+#        --config
+#        C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\..\Config\stm32f10x_flash.icf
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at 0x800'0000 { ro section .intvec };
+"P1":  place in [from 0x800'0000 to 0x80f'ffff] { ro };
+define block CSTACK with size = 1K, alignment = 8 { };
+define block HEAP with size = 512, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2001'7fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address   Size  Object
+  -------   ----         -------   ----  ------
+"A0":                             0x130
+  .intvec   ro code   0x800'0000  0x130  startup_stm32f10x_hd.o [1]
+                    - 0x800'0130  0x130
+
+"P1":                             0x280
+  .text     ro code   0x800'0130  0x118  system_stm32f10x.o [1]
+  .text     ro code   0x800'0248   0x1e  cmain.o [3]
+  .text     ro code   0x800'0266    0x4  low_level_init.o [2]
+  .text     ro code   0x800'026a    0x4  main.o [1]
+  .text     ro code   0x800'026e    0x4  exit.o [2]
+  .text     ro code   0x800'0272   0x12  stm32f10x_it.o [1]
+  .text     ro code   0x800'0284    0xa  cexit.o [3]
+  .text     ro code   0x800'0290   0x14  exit.o [4]
+  .text     ro code   0x800'02a4   0x10  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02b4    0xc  cstartup_M.o [3]
+  .text     ro code   0x800'02c0    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02c4    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02c8    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02cc    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02d0    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02d4    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02d8    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02dc    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02e0    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02e4    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02e8    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02ec    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02f0    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02f4    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02f8    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'02fc    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0300    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0304    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0308    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'030c    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0310    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0314    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0318    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'031c    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0320    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0324    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0328    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'032c    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0330    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0334    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0338    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'033c    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0340    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0344    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0348    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'034c    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0350    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0354    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0358    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'035c    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0360    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0364    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0368    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'036c    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0370    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0374    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0378    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'037c    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0380    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0384    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0388    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'038c    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0390    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0394    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'0398    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'039c    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'03a0    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'03a4    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'03a8    0x4  startup_stm32f10x_hd.o [1]
+  .text     ro code   0x800'03ac    0x4  startup_stm32f10x_hd.o [1]
+                    - 0x800'03b0  0x280
+
+"P2":                             0x400
+  CSTACK             0x2000'0000  0x400  <Block>
+    CSTACK  uninit   0x2000'0000  0x400  <Block tail>
+                   - 0x2000'0400  0x400
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+   0x800'03b0   0x80f'ffff  0xf'fc50
+  0x2000'0400  0x2001'7fff  0x1'7c00
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module                  ro code  rw data
+    ------                  -------  -------
+command line/config:
+    ----------------------------------------
+    Total:
+
+C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj: [1]
+    main.o                        4
+    startup_stm32f10x_hd.o      560
+    stm32f10x_it.o               18
+    system_stm32f10x.o          280
+    ----------------------------------------
+    Total:                      862
+
+dl7M_tln.a: [2]
+    exit.o                        4
+    low_level_init.o              4
+    ----------------------------------------
+    Total:                        8
+
+rt7M_tl.a: [3]
+    cexit.o                      10
+    cmain.o                      30
+    cstartup_M.o                 12
+    ----------------------------------------
+    Total:                       52
+
+shb_l.a: [4]
+    exit.o                       20
+    ----------------------------------------
+    Total:                       20
+
+    Gaps                          2
+    Linker created                     1 024
+--------------------------------------------
+    Grand Total:                944    1 024
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address  Size  Type      Object
+-----                     -------  ----  ----      ------
+?main                  0x800'0249        Code  Gb  cmain.o [3]
+BusFault_Handler       0x800'0279   0x2  Code  Gb  stm32f10x_it.o [1]
+CSTACK$$Base          0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit         0x2000'0400         --   Gb  - Linker created -
+DebugMon_Handler       0x800'027f   0x2  Code  Gb  stm32f10x_it.o [1]
+HardFault_Handler      0x800'0275   0x2  Code  Gb  stm32f10x_it.o [1]
+MemManage_Handler      0x800'0277   0x2  Code  Gb  stm32f10x_it.o [1]
+NMI_Handler            0x800'0273   0x2  Code  Gb  stm32f10x_it.o [1]
+PendSV_Handler         0x800'0281   0x2  Code  Gb  stm32f10x_it.o [1]
+Region$$Table$$Base           0x0         --   Gb  - Linker created -
+Region$$Table$$Limit          0x0         --   Gb  - Linker created -
+SVC_Handler            0x800'027d   0x2  Code  Gb  stm32f10x_it.o [1]
+SetSysClock            0x800'0175   0x8  Code  Lc  system_stm32f10x.o [1]
+SetSysClockTo72        0x800'017d  0xae  Code  Lc  system_stm32f10x.o [1]
+SysTick_Handler        0x800'0283   0x2  Code  Gb  stm32f10x_it.o [1]
+SystemInit             0x800'0131  0x44  Code  Gb  system_stm32f10x.o [1]
+UsageFault_Handler     0x800'027b   0x2  Code  Gb  stm32f10x_it.o [1]
+__cmain                0x800'0249        Code  Gb  cmain.o [3]
+__exit                 0x800'0291  0x14  Code  Gb  exit.o [4]
+__iar_program_start    0x800'02b5        Code  Gb  cstartup_M.o [3]
+__low_level_init       0x800'0267   0x4  Code  Gb  low_level_init.o [2]
+__vector_table         0x800'0000        Data  Gb  startup_stm32f10x_hd.o [1]
+_call_main             0x800'0255        Code  Gb  cmain.o [3]
+_exit                  0x800'0285        Code  Gb  cexit.o [3]
+_main                  0x800'0263        Code  Gb  cmain.o [3]
+exit                   0x800'026f   0x4  Code  Gb  exit.o [2]
+main                   0x800'026b   0x4  Code  Gb  main.o [1]
+
+
+[1] = C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Obj
+[2] = dl7M_tln.a
+[3] = rt7M_tl.a
+[4] = shb_l.a
+
+    944 bytes of readonly  code memory
+  1 024 bytes of readwrite data memory
+
+Errors: none
+Warnings: none
