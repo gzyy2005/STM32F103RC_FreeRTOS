@@ -2,7 +2,7 @@
 
 "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armjlink2.dll" 
 
-"C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\Debug\Exe\Project.out" 
+"F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Exe\Project.out" 
 
 --plugin="C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\bin\armbat.dll" 
 

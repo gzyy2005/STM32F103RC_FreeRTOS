@@ -1,19 +1,23 @@
-"C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\FWLIB\src\misc.c"
+"F:\src\my_self\STM32F103RC_FreeRTOS\FWLIB\src\misc.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\FWLIB\src
+F:\src\my_self\STM32F103RC_FreeRTOS\FWLIB\src
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\..
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\..
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\..\FWLIB\inc
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\..\FWLIB\inc
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\..\CMSIS\Startup
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\..\CMSIS\Startup
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\..\CMSIS\System
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\..\CMSIS\System
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\..\User
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\..\User
+-I
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\..\FreeRTOS\include
+-I
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\..\FreeRTOS\portable\IAR\ARM_CM3
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\Core\Include
 -I
@@ -23,15 +27,19 @@ C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\inc\c
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS
+F:\src\my_self\STM32F103RC_FreeRTOS
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\FWLIB\inc
+F:\src\my_self\STM32F103RC_FreeRTOS\FWLIB\inc
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\CMSIS\Startup
+F:\src\my_self\STM32F103RC_FreeRTOS\CMSIS\Startup
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\CMSIS\System
+F:\src\my_self\STM32F103RC_FreeRTOS\CMSIS\System
 -I
-C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\User
+F:\src\my_self\STM32F103RC_FreeRTOS\User
+-I
+F:\src\my_self\STM32F103RC_FreeRTOS\FreeRTOS\include
+-I
+F:\src\my_self\STM32F103RC_FreeRTOS\FreeRTOS\portable\IAR\ARM_CM3
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\arm\CMSIS\Core\Include
 -I

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\settings\Project.Debug.general.xcl" --backend -f "C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\settings\Project.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\src\my_self\STM32F103RC_FreeRTOS\Project\settings\Project.Debug.general.xcl" --backend -f "F:\src\my_self\STM32F103RC_FreeRTOS\Project\settings\Project.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\settings\Project.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\o2\Desktop\STM32F103RC_FreeRTOS\Project\settings\Project.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.1\common\bin\cspybat" -f "F:\src\my_self\STM32F103RC_FreeRTOS\Project\settings\Project.Debug.general.xcl" "--debug_file=%~1" --backend -f "F:\src\my_self\STM32F103RC_FreeRTOS\Project\settings\Project.Debug.driver.xcl" 
 
 @echo off 
 :end
