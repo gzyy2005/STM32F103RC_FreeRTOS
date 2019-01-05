@@ -618,7 +618,7 @@
                 </option>
                 <option>
                     <name>AUserIncludes</name>
-                    <state></state>
+                    <state>$PROJ_DIR$\..\User</state>
                 </option>
                 <option>
                     <name>AExtraOptionsCheckV2</name>
@@ -652,7 +652,7 @@
                 </option>
                 <option>
                     <name>OOCOutputFile</name>
-                    <state></state>
+                    <state>Project.srec</state>
                 </option>
                 <option>
                     <name>OOCCommandLineProducer</name>

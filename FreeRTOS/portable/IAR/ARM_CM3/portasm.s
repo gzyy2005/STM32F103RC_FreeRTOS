@@ -67,7 +67,7 @@
     1 tab == 4 spaces!
 */
 
-#include "..\..\..\..\User\FreeRTOSConfig.h"
+#include "FreeRTOSConfig.h"
 
 	RSEG    CODE:CODE(2)
 	thumb

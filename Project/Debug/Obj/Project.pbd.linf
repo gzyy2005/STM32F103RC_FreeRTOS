@@ -1,14 +1,12 @@
 ﻿F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\Project.pbd
-F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\system_stm32f10x.pbi
-F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\heap_4.pbi
-F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\port.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\croutine.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\event_groups.pbi
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\heap_4.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\list.pbi
-F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\queue.pbi
-F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\tasks.pbi
-F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\timers.pbi
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\main.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\misc.pbi
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\port.pbi
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\queue.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_adc.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_bkp.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_can.pbi
@@ -22,6 +20,7 @@ F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_flash.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_fsmc.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_gpio.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_i2c.pbi
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_it.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_iwdg.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_pwr.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_rcc.pbi
@@ -31,5 +30,6 @@ F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_spi.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_tim.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_usart.pbi
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_wwdg.pbi
-F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\main.pbi
-F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\stm32f10x_it.pbi
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\system_stm32f10x.pbi
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\tasks.pbi
+F:\src\my_self\STM32F103RC_FreeRTOS\Project\Debug\Obj\timers.pbi
