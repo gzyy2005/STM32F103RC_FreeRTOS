@@ -1,9 +1,9 @@
-"F:\src\my_self\STM32F103RC_FreeRTOS\FreeRTOS\portable\IAR\ARM_CM3\port.c"
+"F:\src\my_self\STM32F103RC_FreeRTOS\FreeRTOS\portable\RVDS\ARM_CM3\port.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -I
-F:\src\my_self\STM32F103RC_FreeRTOS\FreeRTOS\portable\IAR\ARM_CM3
+F:\src\my_self\STM32F103RC_FreeRTOS\FreeRTOS\portable\RVDS\ARM_CM3
 -I
 F:\src\my_self\STM32F103RC_FreeRTOS\Project\..
 -I

@@ -2390,13 +2390,13 @@
             <name>$PROJ_DIR$\..\FreeRTOS\portable\MemMang\heap_4.c</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\FreeRTOS\portable\IAR\ARM_CM3\port.c</name>
+            <name>$PROJ_DIR$\..\FreeRTOS\portable\RVDS\ARM_CM3\port.c</name>
         </file>
         <file>
             <name>$PROJ_DIR$\..\FreeRTOS\portable\IAR\ARM_CM3\portasm.s</name>
         </file>
         <file>
-            <name>$PROJ_DIR$\..\FreeRTOS\portable\IAR\ARM_CM3\portmacro.h</name>
+            <name>$PROJ_DIR$\..\FreeRTOS\portable\RVDS\ARM_CM3\portmacro.h</name>
         </file>
     </group>
     <group>
